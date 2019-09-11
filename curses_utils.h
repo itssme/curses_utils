@@ -1,7 +1,7 @@
-/*
- * author: Joel Klimont
- * filename: curses_utils.h
- * date: 28/01/19
+/*!
+ * @file curses_utils.h
+ * @author Joel Klimont
+ * @date 01/28/2019
 */
 
 #ifndef CURSES_UTILS_CURSES_UTILS_H
@@ -77,6 +77,9 @@ public:
     }
 };
 
+/*!
+ * An option which can be used to get text input from the user
+ */
 struct OptionTextInput {
     std::string title;
     std::string text;
